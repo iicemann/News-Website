@@ -30,3 +30,14 @@ ul li a:hover{
   background-color: #FFA500;
   color: #00FFFF;
 }
+
+ ul li.active a{
+  background-color: #FFA500;
+  color: #FFA500;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
