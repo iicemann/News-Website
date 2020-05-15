@@ -25,8 +25,3 @@ ul li a{
   transition: 0.6s ease;
   font-family: "montserrat";
 }
-
-ul li a:hover{
-  background-color: #FFA500;
-  color: #00FFFF;
-}
