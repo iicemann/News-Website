@@ -21,7 +21,3 @@ ul li a{
   text-decoration: none;
   color: #00FF00;
   padding: 5px 20px;
-  border: 1px solid transparent;
-  transition: 0.6s ease;
-  font-family: "montserrat";
-}
