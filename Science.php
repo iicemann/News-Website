@@ -148,25 +148,6 @@ if(is_null($rs) )
 else {
 ?><br>
   
-</br>
-    <table border="1">
-    <tr><th>News Headlines</th><th>Media</th><th>Description</th><th>Date of Publish</th></tr>
-    <?php
-   while($row = mysqli_fetch_array($rs))
-        { ?>
-
-    <tr>
-        <td width="20%"><?php echo"{$row['news_title']}"?></td>
-    
-        <td width="30%"><?php  echo '<img src="data:image/jpg;base64,'.base64_encode( ($row['data']) ).'"style="max-width:100%;""/>'; ?> </td>
-        <td><?php echo"{$row['news_description']}"?></td>
-        <td width="4%"><?php echo"{$row['date_of_publish']}"?></td>
-    </tr>
-    <?php
-  } ?>
-    <?php
-  } ?>
-
 
   </table>
 </body>
