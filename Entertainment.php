@@ -16,8 +16,3 @@ ul {
 ul li{
   display: inline-block;
 }
-
-ul li a{
-  text-decoration: none;
-  color: #00FF00;
-  padding: 5px 20px;
