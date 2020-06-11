@@ -15,7 +15,6 @@
       <h1>risp</h1>
     </div>
  
-
 <style>
 ul {
   float: left;
