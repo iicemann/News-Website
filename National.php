@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Crisp National</title>
+ <title>Crisp</title>
 </head>
 
 <body>
@@ -14,6 +14,9 @@
 <div class="title">
       <h1>risp</h1>
     </div>
+<div class="button">
+  <a href="Crisp.php" class="btn">Log out</a>
+</div>    
 
 <style>
 ul {
@@ -79,10 +82,10 @@ ul li.active a{
 }
 
 .btn{
-  border: 1px solid #000;
-  padding: 10px 20px;
-  color: #F4A460;
-  text-decoration: none;
+	border: 1px solid #000;
+	padding: 10px 20px;
+	color: #F4A460;
+	text-decoration: none;
 }
 
 .btn:hover{
@@ -122,7 +125,7 @@ p{
 
 <body>
 <ul>
-  <li><a href="Crisp.php">Home</a></li>
+  <li><a href="Crisp1.php">Home</a></li>
   <li><a href="National.php">National</a></li>
   <li><a href="Entertainment.php">Entertainment</a></li>
   <li><a href="Business.php">Business</a></li>
@@ -132,13 +135,13 @@ p{
   <li><a href="World.php">World</a></li>
 </ul>
 
- <br>
+<br>
       </br>
         <?php
 $conn = mysqli_connect('localhost','root','');
 mysqli_select_db($conn,'admin');
 session_start();
-$sqlQuery = "SELECT n.news_title, m.data, n.news_description, n.date_of_publish FROM add_news n, add_media m where news_type_id=2 and n.media_id=m.id order by news_id desc";
+$sqlQuery = "SELECT n.news_title, m.data, n.news_description, n.date_of_publish FROM add_news n, add_media m, top_reads t where t.news_id=n.news_id and n.media_id=m.id order by n.news_id desc";
 $rs = $conn->query($sqlQuery);
 if(is_null($rs) )
 {
