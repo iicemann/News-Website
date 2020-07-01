@@ -10,7 +10,7 @@
 ul {
   float: left;
   list-style-type: none;
-  margin-top: 155px;
+  margin-top: 155px
 }
 
 ul li{
