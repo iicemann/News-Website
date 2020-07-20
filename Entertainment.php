@@ -13,9 +13,6 @@ ul {
   margin-top: 155px
 }
 
-ul li{
-  display: inline-block;
-}
 
 ul li a{
   text-decoration: none;
