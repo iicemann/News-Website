@@ -129,7 +129,6 @@ p{
   <li><a href="Sports.php">Sports</a></li>
   <li><a href="Technology.php">Technology</a></li>  
   <li><a href="World.php">World</a></li>
-</ul>
 
  <br>
       </br>
