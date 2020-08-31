@@ -16,8 +16,6 @@
     </div>
 <br>
 
-
-
 *{
   margin: 0;
   padding: 0;
