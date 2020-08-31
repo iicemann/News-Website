@@ -12,6 +12,7 @@
 	}
 	else
 	{
+		
 		$stmt = $conn->prepare("insert into add_subscriber(User_Id, Email_Id, Edition, Period)
 			values(?, ?, ?, ?)");
 		$stmt->bind_param("issi",$_SESSION['uid'], $EMail, $Genre, $Period);
