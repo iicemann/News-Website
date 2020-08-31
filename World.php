@@ -25,7 +25,6 @@ ul {
 
 ul li{
   display: inline-block;
-}
 
 ul li a{
   text-decoration: none;
