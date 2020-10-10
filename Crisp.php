@@ -7,7 +7,10 @@
 </head>
 
 <body>
-
+<div class="main">
+     <div class="logo">
+       <img src="image1.jpeg">
+     </div>
 <div class="title">
       <h1>risp</h1>
     </div>
