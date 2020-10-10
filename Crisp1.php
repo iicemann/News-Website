@@ -18,7 +18,12 @@
   <a href="Crisp.php" class="btn">Log out</a>
 </div>    
 
-<
+<style>
+ul {
+  float: left;
+  list-style-type: none;
+  margin-top: 155px;
+}
 
 ul li{
   display: inline-block;
