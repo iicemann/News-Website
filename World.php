@@ -25,6 +25,7 @@ ul {
 
 ul li{
   display: inline-block;
+}
 
 ul li a{
   text-decoration: none;
@@ -42,6 +43,8 @@ ul li a:hover{
 
 ul li.active a{
   background-color: #FFA500;
+  color: #FFA500;
+}
 
 *{
   margin: 0;
@@ -128,6 +131,7 @@ p{
   <li><a href="Sports.php">Sports</a></li>
   <li><a href="Technology.php">Technology</a></li>  
   <li><a href="World.php">World</a></li>
+</ul>
 
  <br>
       </br>

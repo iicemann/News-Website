@@ -16,7 +16,15 @@
     </div> 
 
 <style>
+ul {
+  float: left;
+  list-style-type: none;
+  margin-top: 155px;
+}
 
+ul li{
+  display: inline-block;
+}
 
 ul li a{
   text-decoration: none;
